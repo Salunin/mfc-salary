@@ -221,4 +221,34 @@ input {
                       margin-right: 15px;
                       line-height: 24px;
                     }
+                    .info-zp {
+                      display: none;
+                      font-weight: 700;
+                      font-size: 20px;
+                      line-height: 36px;
+                    }
+          
+                    .info-zp_p {
+                      display: none;
+                      font-weight: 400;
+                      font-size: 20px;
+                      line-height: 36px;
+                      margin-left: 20px;
+                      margin-right: 20px;
+                    }
+
+                    .clear {
+                      display: none;
+                      border: none;
+                      width: 310px;
+                      height: 55px;
+                      background: #A0D398;
+                      border-radius: 40px;
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 20px;
+                      line-height: 36px;
+                      margin-bottom: 35px;
+                      margin-bottom: 80px;
+                    }
 }
