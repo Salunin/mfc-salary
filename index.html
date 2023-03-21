@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="header_h1">Расчет заработной платы</h1>
+        <span class="form_block1">Сумма оклада</span>
+        <input type="text" class="zp" required />
+        <span class="form_block2">Количество часов в месяце</span>
+        <input type="text" class="hours" required />
+        <span class="form_block3">Количество отработанных часов</span>
+        <input type="text" class="hour" required />
+        <button class="result">Узнать результат</button>
+        <p class="infohome">
+          Количество часов рассчитывается следующим способом. <br />
+          22-го числа мы получаем за период с 1 по 15 число текущего месяца<br />
+          7-го числа мы получаем за период с 16 по 31 число прошлого месяца.
+        </p>
+        <h1 class="header_h1d">Расчет заработной платы</h1>
+        <h2 class="info-zp">Зарплата составляет</h2>
+        <h2 class="h1result"></h2>
+        <button class="clear">Новый расчет</button>
+        <p class="info-zp_p">*сумма является предварительной и зависит от множества факторов (какой график в отделе кадров)</p>
+      </div>
+    </div>
+  </body>
+</html>

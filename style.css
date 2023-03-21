@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+.wrapper {
+  font-family: sans-serif;
+  height: 100vh;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(117.03deg, rgba(168, 109, 67, 0.5) 0%, rgba(189, 88, 88, 0.5) 53.13%, #522810 100%, rgba(82, 40, 16, 0.5) 100%);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  height: 800px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+.header_h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header_h1d {
+  display: none;
+  padding-top: 40px;
+  margin-bottom: 150px;
+}
+span {
+  font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+input {
+  width: 450px;
+  height: 60px;
+  background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+.form_block1 {
+  padding-bottom: 25px;
+}
+.form_block2 {
+  padding-bottom: 25px;
+}
+.form_block3 {
+  padding-bottom: 25px;
+}
+.zp {
+  margin-bottom: 25px;
+}
+.hours {
+  margin-bottom: 25px;
+}
+.hour {
+  margin-bottom: 50px;
+}
+.result {
+  border:none;
+  width: 450px;
+    height: 70px;
+  background: #A0D398;
+    border-radius: 40px;
+    font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 35px;
+}
+.result:hover {
+  background: #679d5f;
+  cursor: pointer;
+}
+.h1result {
+  display: none;
+  font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 90px;
+}
+.infohome {
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.info-zp {
+  display: none;
+  font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.info-zp_p {
+  display: none;
+  font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.clear {
+  display: none;
+  border: none;
+    width: 450px;
+    height: 70px;
+    background: #A0D398;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 35px;
+    margin-bottom: 80px;
+}
+.clear:hover {
+  background: #679d5f;
+    cursor: pointer;
+}
+
+@media (min-width: 450px) {
+
+}
