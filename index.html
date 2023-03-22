@@ -6,33 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css?v.2" />
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(92902779, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/92902779" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <div class="wrapper">
       <div class="container">
         <h1 class="header_h1">Расчет заработной платы</h1>
+        <span class="error">Заполните все поля</span>
         <span class="form_block1">Сумма оклада</span>
-        <input type="text" class="zp" required />
+        <input type="text" class="zp" required placeholder="13% программа вычтет" />
         <span class="form_block2">Количество часов в месяце</span>
-        <input type="text" class="hours" required />
+        <input type="text" class="hours" required placeholder="в Марте 175 часов" />
         <span class="form_block3">Количество отработанных часов</span>
         <input type="text" class="hour" required />
         <button class="result">Узнать результат</button>
