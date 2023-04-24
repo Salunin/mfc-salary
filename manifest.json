@@ -1,0 +1,19 @@
+{
+  "name": "mfc-salary",
+  "short_name": "mfc-salary",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "A simply readable Hacker News app.",
+  "icons": [{
+    "src": "img/img.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "web"
+  }, {
+    "platform": "play",
+    "url": "index.html"
+  }]
+}
