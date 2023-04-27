@@ -1,6 +1,6 @@
 {
-  "name": "mfc-salary",
-  "short_name": "mfc-salary",
+  "name": "Зарплата МФЦ",
+  "short_name": "Зарплата МФЦ",
   "start_url": ".",
   "display": "fullscreen",
   "background_color": "#fff",
