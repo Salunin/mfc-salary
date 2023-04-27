@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="manifest" href="manifest.json" />
     <script src="script.js" defer></script>
+    <script src="add.js" defer></script>
+    <script src="service-worker.js" defer></script>
     <link rel="stylesheet" href="style.css" />
 
     <!-- Yandex.Metrika counter -->
@@ -45,7 +47,7 @@
         <span class="form_block1">Сумма оклада</span>
         <input type="text" class="zp" required placeholder="13% программа вычтет" />
         <span class="form_block2">Количество часов в месяце</span>
-        <input type="text" class="hours" required placeholder="в Апреле 160 часов" />
+        <input type="text" class="hours" required placeholder="в Марте 175 часов" />
         <span class="form_block3">Количество отработанных часов</span>
         <input type="text" class="hour" required />
         <button class="result">Узнать результат</button>
@@ -60,6 +62,9 @@
         <button class="clear">Новый расчет</button>
         <p class="info-zp_p">*сумма является предварительной и зависит от множества факторов (какой график в отделе кадров)</p>
       </div>
+    </div>
+    <div id="installContainer" class="hidden">
+      <button id="butInstall" type="button">Install</button>
     </div>
   </body>
 </html>

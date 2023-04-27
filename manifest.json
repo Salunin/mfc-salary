@@ -1,31 +1,13 @@
 {
-  "name": "Зарплата МФЦ",
-  "short_name": "Зарплата МФЦ",
-  "start_url": ".",
+  "name": "mfc-salary",
+  "short_name": "mfc-salary",
+  "start_url": "/",
   "display": "fullscreen",
   "background_color": "#fff",
   "description": "A simply readable Hacker News app.",
   "icons": [{
     "src": "img/img.png",
-    "sizes": "256x256",
+    "sizes": "48x48",
     "type": "image/png"
-  }, {
-    "src": "img/img.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }, {
-    "src": "img/img.png",
-    "sizes": "128x128",
-    "type": "image/png"
-  }, {
-    "src": "img/img.png",
-    "sizes": "64x64",
-    "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "web"
-  }, {
-    "platform": "play",
-    "url": "index.html"
   }]
 }
