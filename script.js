@@ -77,7 +77,5 @@ clear.addEventListener("click", function () {
   info_zp_p.style.display = "none";
   result.style.display = "block";
   clear.style.display = "none";
-  zp.value = "";
-  hours.value = "";
   hour.value = "";
 });
